@@ -1,4 +1,7 @@
-module.exports = ({ env }) => ({
+module.exports = ({ env }) => {
+  console.log("this runs")
+  
+  return ({
   defaultConnection: 'default',
   connections: {
     default: {
@@ -15,4 +18,4 @@ module.exports = ({ env }) => ({
       options: {}
     },
   },
-});
+})};
