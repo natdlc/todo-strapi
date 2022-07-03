@@ -3,11 +3,11 @@ const config = parse(process.env.DATABASE_URL);
 
 module.exports = ({ env }) => {
 
-    console.log('env below')
-    console.log(env)
-    console.log('process nev below')
-    console.log(process.env.DATABASE_URL);
-  
+    // console.log('env below')
+    // console.log(env)
+    // console.log('process nev below')
+    // console.log(process.env.DATABASE_URL);
+    console.log(config.host);
     return {
     connection: {
       client: "postgres",
