@@ -7,12 +7,12 @@ module.exports = ({ env }) => {
     // console.log(env)
     // console.log('process nev below')
     // console.log(process.env.DATABASE_URL);
-    console.log(config.host);
+    console.log(config);
     return {
     connection: {
       client: "postgres",
       connection: {
-        host: config.host,
+        HOST: config.host,
         port: config.port,
         database: config.database,
         user: config.user,
