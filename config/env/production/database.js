@@ -12,7 +12,7 @@ module.exports = ({ env }) => {
     connection: {
       client: "postgres",
       connection: {
-        host: config.host,
+        host: "ec2-23-23-151-191.compute-1.amazonaws.com",
         port: config.port,
         database: config.database,
         user: config.user,
