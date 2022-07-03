@@ -1,5 +1,4 @@
 module.exports = ({ env }) => {
-  console.log("this runs")
   
   return ({
   defaultConnection: 'default',
