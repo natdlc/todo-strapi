@@ -29,6 +29,10 @@
     },
     "registered_at": {
       "type": "datetime"
+    },
+    "items": {
+      "via": "owner",
+      "collection": "item"
     }
   }
 }

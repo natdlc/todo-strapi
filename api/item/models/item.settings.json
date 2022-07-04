@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "items",
+  "info": {
+    "name": "Item"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255,
+      "minLength": 1
+    },
+    "done": {
+      "type": "boolean",
+      "default": false
+    },
+    "owner": {
+      "model": "owner",
+      "via": "items"
+    }
+  }
+}
