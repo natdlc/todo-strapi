@@ -1,3 +1,9 @@
-# Strapi application
+# TODO APP BACKEND --LOCAL COPY
 
-A quick description of your strapi application
+**MADE WITH** 
+- PostgreSQL
+- Strapi
+- Heroku
+
+**-->PUSH CHANGES TO HEROKU REMOTE**
+**-->THIS IS WHERE API MODIFICATIONS ARE MADE**
